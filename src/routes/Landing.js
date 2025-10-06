@@ -52,11 +52,7 @@ function Landing({ className }) {
                 </div>
               </div>
               <div className="row">
-                <div> 
-                  <h4 className="fw-light" style={{ marginBottom: '31px' }}>
-                    Hazme una pregunta y haré lo mejor posible para responderla.
-                  </h4>
-                </div>
+                <div><h4 className="fw-light" style={{ marginBottom: '31px' }}>Hazme una pregunta y haré lo mejor posible para responderla.</h4></div>
               </div>
               <div className="row" style={{ marginBottom: '60px' }}>
                 {!connected && (
@@ -64,9 +60,7 @@ function Landing({ className }) {
                     className="button-start button--disabled m-2 "
                     type="button"
                   >
-                    <span>
-                      Un momento...
-                    </span>
+                    <span>Un momento...</span>
                     <img alt="gif loading" src="https://media.tenor.com/t5DMW5PI8mgAAAAj/loading-green-loading.gif" className="gif-loading" />
                   </div>
                 )}
@@ -77,11 +71,10 @@ function Landing({ className }) {
                     disabled={!connected}
                     onClick={redirectToVideoOnConnect}
                   >
-                    Converse comigo
+                    Habla conmigo
                   </button>
                 )}
               </div>
-              
               <div className="col" />
             </div>
           </div>
