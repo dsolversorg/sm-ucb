@@ -52,7 +52,7 @@ function Landing({ className }) {
                 </div>
               </div>
               <div className="row">
-                <div>
+                <div> 
                   <h4 className="fw-light" style={{ marginBottom: '31px' }}>
                     Hazme una pregunta y haré lo mejor posible para responderla.
                   </h4>
