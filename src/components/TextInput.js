@@ -25,7 +25,7 @@ function TextInput({ className }) {
             value={textInput}
             onChange={handleInput}
             className="form-control"
-            placeholder="Digite sua mensagem aqui...."
+            placeholder="Escribe tu mensaje aquí...."
           />
           <button
             className="btn send-button"
